@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/quickactions/:path*",
+      "destination": "/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/quickactions",
+      "permanent": true
+    }
+  ]
+}
